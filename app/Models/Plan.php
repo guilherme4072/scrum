@@ -11,8 +11,11 @@ class Plan extends Model
         'name',
         'description',
         'price',
-        'ative',
-        'created_at',
-        'updated_at'
+        'ative'
     ];
+
+    public function groups()
+    {
+        return $this->hasMany(Group::class);
+    }
 }

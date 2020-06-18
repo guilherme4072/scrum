@@ -10,7 +10,7 @@ class PlanController extends Controller
 {
     public function index()
     {
-        return Plan::All();
+        return Plan::with('groups')->Get();
     }
 
     public function store()
