@@ -14,8 +14,8 @@ class Plan extends Model
         'ative'
     ];
 
-    // public function groups()
-    // {
-    //     return $this->hasMany(Group::class);
-    // }
+    public function groups()
+    {
+        return $this->hasMany(Group::class);
+    }
 }
