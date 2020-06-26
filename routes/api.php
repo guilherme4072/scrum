@@ -22,3 +22,4 @@ Route::resource('plans', 'Api\\PlanController')->except(['create', 'edit']);
 Route::resource('groups', 'Api\\GroupController')->except(['create', 'edit']);
 Route::resource('users', 'Api\\UserController')->except(['create', 'edit']);
 Route::resource('companies', 'Api\\CompanyController')->except(['create', 'edit']);
+Route::resource('roles', 'Api\\RoleController')->except(['create', 'edit']);
