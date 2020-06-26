@@ -14,7 +14,7 @@ class Company extends Model
         'cnpj',
         'ie',
     ];
-    public function groups()
+    public function group()
     {
         return $this->belongsTo(Group::class);
     }

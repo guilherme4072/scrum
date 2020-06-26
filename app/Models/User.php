@@ -23,7 +23,7 @@ class User extends Model
         'hash',
     ];
 
-    public function groups()
+    public function group()
     {
         return $this->belongsTo(Group::class);
     }
