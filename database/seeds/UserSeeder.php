@@ -8,6 +8,7 @@ class UserSeeder extends Seeder
 
     public function run()
     {
-        factory(User::class, 10)->create();
+        //** REMOVED ** goto UserContactSeeder
+        //factory(User::class, 10)->create();
     }
 }

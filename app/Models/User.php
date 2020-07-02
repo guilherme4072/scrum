@@ -27,4 +27,8 @@ class User extends Model
     {
         return $this->belongsTo(Group::class);
     }
+    public function userContact()
+    {
+        return $this->hasOne(User::class);
+    }
 }
